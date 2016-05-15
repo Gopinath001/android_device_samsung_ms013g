@@ -51,6 +51,9 @@ PRODUCT_PACKAGES += \
     hostapd.accept \
     hostapd.deny \
     hostapd_default.conf
+# Doze
+PRODUCT_PACKAGES += \
+    SamsungDoze    
 
 PRODUCT_PACKAGES += \
     p2p_supplicant_overlay.conf \
