@@ -15,6 +15,7 @@
 #
 
 LOCAL_PATH := device/samsung/ms013g
+COMMON_PATH := device/samsung/msm8226-common
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/ms013g/ms013g-vendor.mk)
@@ -40,6 +41,10 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:root/fstab.qcom
+
+# GPS
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/gps/gps.conf:system/etc/gps.conf
 
 # Default.prop overrides to get adb working at boot
 ADDITIONAL_DEFAULT_PROPERTIES += \
