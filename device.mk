@@ -58,9 +58,12 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    hostapd.accept \
-    hostapd.deny \
-    hostapd_default.conf
+    wpa_supplicant \
+    hostapd_default.conf \
+    p2p_supplicant_overlay.conf \
+    wpa_supplicant.conf
+    
+    
 # Doze
 PRODUCT_PACKAGES += \
     SamsungDoze    
