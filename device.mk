@@ -51,6 +51,10 @@ PRODUCT_COPY_FILES += \
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.secure=0 \
     ro.adb.secure=0
+    
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/thermal-engine-8226.conf:system/etc/thermal-engine-8226.conf
 
 # Wifi
 PRODUCT_PACKAGES += \
