@@ -52,7 +52,7 @@ TARGET_GLOBAL_CFLAGS += -DANDROID_MULTI_SIM
 TARGET_GLOBAL_CPPFLAGS += -DANDROID_MULTI_SIM
 
 # Radio
-BOARD_RIL_CLASS := ../../../device/samsung/ms013g/ril/
+BOARD_RIL_CLASS := ../../../device/samsung/msm8226-common/ril/
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/ms013g
