@@ -63,6 +63,16 @@ PRODUCT_PACKAGES += \
     p2p_supplicant_overlay.conf \
     wpa_supplicant.conf
     
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
+#adb at boot
+ifneq ($(TARGET_BUILD_VARIANT),user)
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.secure=0 \
+    ro.adb.secure=0
+endif
     
 # Doze
 PRODUCT_PACKAGES += \
