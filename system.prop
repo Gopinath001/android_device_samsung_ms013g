@@ -52,9 +52,9 @@ ro.qc.sdk.izat.premium_enabled=0
 ro.qc.sdk.izat.service_mask=0x0
 
 # Qualcomm
-persist.timed.enable=true
-ro.qualcomm.cabl=0
-ro.vendor.extension_library=/system/vendor/lib/libqti-perfd-client.so
+# persist.timed.enable=true
+# ro.qualcomm.cabl=0
+# ro.vendor.extension_library=/system/vendor/lib/libqti-perfd-client.so
 
 # Radio
 persist.data.netmgrd.qos.enable=false
@@ -62,7 +62,7 @@ persist.radio.add_power_save=1
 ro.use_data_netmgrd=false
 
 # Recovery
-ro.cwm.forbid_format=/efs,/firmware,/firmware-modem,/persist,/boot
+# ro.cwm.forbid_format=/efs,/firmware,/firmware-modem,/persist,/boot
 
 # Sensors
 ro.qc.sdk.gestures.camera=false
