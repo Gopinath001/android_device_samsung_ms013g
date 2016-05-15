@@ -39,8 +39,9 @@ PRODUCT_PACKAGES += \
     libril_shim
 
 # Ramdisk
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:root/fstab.qcom
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    init.target.rc
 
 # GPS
 PRODUCT_COPY_FILES += \
