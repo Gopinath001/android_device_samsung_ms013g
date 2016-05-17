@@ -77,5 +77,5 @@ wifi.supplicant_scan_interval=15
 wlan.driver.ath=0
 
 #  Device Fingerprints
-ro.build.fingerprint=samsung/ms013gxx/ms013g:4.4.2/KTU84P/G7102DDUBNK1:user/release-keys
-ro.build.description=ms013gxx-user 4.4.2 KTU84P G7102DDUBNK1 release-keys
+# ro.build.fingerprint=samsung/ms013gxx/ms013g:4.4.2/KTU84P/G7102DDUBNK1:user/release-keys
+# ro.build.description=ms013gxx-user 4.4.2 KTU84P G7102DDUBNK1 release-keys
