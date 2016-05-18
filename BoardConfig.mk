@@ -26,6 +26,8 @@ TARGET_KERNEL_SOURCE := kernel/samsung/ms013g
 TARGET_KERNEL_CONFIG := cyanogenmod_ms013g_defconfig
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x1e00000
 BOARD_DTBTOOL_ARGS := -2
+BOARD_KERNEL_CMDLINE := console=null androidboot.console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 androidboot.selinux=permissive
+BOARD_KERNEL_PAGESIZE := 2048
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
