@@ -35,8 +35,8 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Radio
-PRODUCT_PACKAGES += \
-    libril_shim
+#PRODUCT_PACKAGES += \
+#   libril_shim
 
 # Ramdisk
 PRODUCT_PACKAGES += \
