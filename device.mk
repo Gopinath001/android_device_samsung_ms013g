@@ -32,7 +32,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.vid=05c6
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay/frameworks/base/core/res/res/values/config.xml
 
 # Radio
 #PRODUCT_PACKAGES += \
